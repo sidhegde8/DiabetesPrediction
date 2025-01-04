@@ -6,6 +6,7 @@ Backend: A Flask API that processes input data and returns a prediction using a 
 
 Frontend: An Angular application that provides a user interface for inputting data and displaying the prediction.
 
+Link to test it out: https://frontend-service-936845130727.us-central1.run.app
 
 Prerequisites
 Before running the project, ensure you have the following installed:
