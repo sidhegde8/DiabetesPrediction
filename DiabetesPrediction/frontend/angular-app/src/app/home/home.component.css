@@ -1,0 +1,23 @@
+/* Container for the chart */
+.chart-container {
+    max-width: 300px;
+    margin: 0 auto;
+    overflow: hidden; /* Ensure the chart doesn't overflow during animation */
+  }
+  
+  /* Styling for the prediction result and error message */
+  .alert {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Animation for the radial gauge */
+  @keyframes scaleUp {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
