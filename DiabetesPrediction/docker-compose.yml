@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  backend:
+    image: docker-backend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+
+  frontend:
+    image: docker-frontend
+    build:
+      context: ./frontend/angular-app
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
