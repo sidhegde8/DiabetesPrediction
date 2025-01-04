@@ -18,18 +18,22 @@ Features:
 - Scalable: Designed to be deployed on cloud platforms like Google Cloud Run.
 
 Technologies Used
+
 Frontend:
 - Angular
 - HTML/CSS
 - TypeScript
+  
 Backend:
 - Flask (Python)
 - Scikit-learn (Machine Learning)
 - Pandas (Data Processing)
+  
 DevOps:
 - Docker
 - Docker Compose
 - Google Cloud Run
+
 Other Tools:
 - Git
 - VS Code
@@ -40,12 +44,9 @@ Other Tools:
 Prerequisites
 Before running the project, ensure you have the following installed:
 
-Python 3.10 (for the Flask backend)
-
-Node.js (for the Angular frontend)
-
-Docker (optional, for containerization)
-
-Git (optional, for version control)
+- Python 3.10 (for the Flask backend)
+- Node.js (for the Angular frontend)
+- Docker (optional, for containerization)
+- Git (optional, for version control)
 
 
